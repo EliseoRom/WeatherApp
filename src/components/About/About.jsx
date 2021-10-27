@@ -27,7 +27,7 @@ export default function About() {
                 Hola, soy Eliseo
               </h1>
               <p className="jobabt">
-                Full Stack Developer & Photography
+                Full Stack Developer & Photographer
               </p>
               <p>Podes encontrarme en mis redes sociales</p>
               <hr className="hrnashe"></hr>
