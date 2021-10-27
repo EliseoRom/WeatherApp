@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+:root {
+  --blue: rgba(18, 41, 77, 0.924);
+  
+  --white: rgb(236, 236, 236);
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background: var(--background-color);
+  color: var(--text-color);
+  font-weight: var(--font-weight);
+  transition: background 0.5s ease-in-out, color 0.6s ease-in-out;
+}
+
+body.light {
+  --background-color: var(--white);
+  --text-color: var(--blue);
+  --font-weight: 400;
+}
+
+body.dark {
+  --background-color: var(--blue);
+  --text-color: var(--white);
+  --font-weight: 500;
+}
+
+body {
+  overflow-x: hidden; 
+}
+.navbar{
+  height: 10vh;
+  background-color: rgb(0, 54, 233);
+  display: flex;
+  justify-content: space-between;
+  
+  align-items: center;
+  position: relative
+}
+
+
+@media screen and (max-width: 768px){
+  body {
+  overflow-x: hidden;
+  width: 100%
+ }
+}
+
+@media screen and (max-width: 480px){
+  body {
+  overflow-x: hidden;
+  width: 100%
+ }
+}
